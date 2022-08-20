@@ -1,0 +1,55 @@
+*,
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    display: none;
+    position: absolute;
+    max-width: 900px;
+    top: 20%;
+    left: 17%;
+    margin: auto;
+    padding: 40px 20px;
+    background-color: rgb(209, 209, 209);
+    animation: fade ease-in-out 1000ms;
+}
+
+input[type="text"]::placeholder {
+    font-family: 'Helvetica', FontAwesome, sans-serif;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.close {
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    font-size: 24px;
+}
+
+.close:hover {
+    color: rgb(211, 9, 9);
+}
+
+.show {
+    display: block;
+}
+
+.Userdatas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
