@@ -7,6 +7,9 @@
     .person--profile {
         top: 2%;
     }
+    .msg-img {
+        height: 40px;
+    }
 }
 
 @media screen and (max-width:560px) {
