@@ -1,0 +1,12 @@
+@media screen and (max-width:720px) {
+    .chatbox {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .virtual h1 {
+        font-size: 15px;
+    }
+}
